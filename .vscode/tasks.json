@@ -1,16 +1,38 @@
 {
-    "version": "2.0.0",
-    "tasks": [
-        {
-            "label": "build",
-            "type": "shell",
-            "command": "./build.sh",
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            },
-            "problemMatcher": ["$gcc"],
-            "detail": "CMake build task"
-        }
-    ]
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build",
+      "type": "shell",
+      "command": "./build.sh",
+      "group": "build",
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "detail": "CMake build task"
+    },
+    {
+      "type": "cppbuild",
+      "label": "C/C++: g++.exe сборка активного файла",
+      "command": "C:\\Strawberry\\c\\bin\\g++.exe",
+      "args": [
+        "-fdiagnostics-color=always",
+        "-g",
+        "${file}",
+        "-o",
+        "${fileDirname}\\${fileBasenameNoExtension}.exe"
+      ],
+      "options": {
+        "cwd": "${fileDirname}"
+      },
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "detail": "Задача создана отладчиком."
+    }
+  ]
 }
