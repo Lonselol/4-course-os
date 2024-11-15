@@ -4,5 +4,7 @@ project(lab-lib)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(lab-lib test.cpp)
+if(EXISTS "${CMAKE_BINARY_DIR}/lab-lib.exe")
+    file(REMOVE "${CMAKE_BINARY_DIR}/lab-lib.exe")
+endif()
 add_executable(lab-lib process_launcher.cpp)

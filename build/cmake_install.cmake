@@ -36,6 +36,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/lab-helloworld/cmake_install.cmake")
   include("C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/lab-lib/cmake_install.cmake")
+  include("C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/lab-lib-test/cmake_install.cmake")
 
 endif()
 

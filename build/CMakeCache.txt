@@ -204,13 +204,13 @@ lab-helloworld_IS_TOP_LEVEL:STATIC=OFF
 lab-helloworld_SOURCE_DIR:STATIC=C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/lab-helloworld
 
 //Value Computed by CMake
-lab-lib_BINARY_DIR:STATIC=C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/lab-lib
+lab-lib_BINARY_DIR:STATIC=C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/lab-lib-test
 
 //Value Computed by CMake
 lab-lib_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-lab-lib_SOURCE_DIR:STATIC=C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/lab-lib
+lab-lib_SOURCE_DIR:STATIC=C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/lab-lib-test
 
 
 ########################
@@ -297,7 +297,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MT
 CMAKE_MT-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=3
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=4
 //Platform information initialized
 CMAKE_PLATFORM_INFO_INITIALIZED:INTERNAL=1
 //noop for ranlib

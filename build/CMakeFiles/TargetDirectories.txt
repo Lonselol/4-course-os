@@ -4,3 +4,4 @@ C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/lab-helloworld/CM
 C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/lab-helloworld/CMakeFiles/ALL_BUILD.dir
 C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/lab-lib/CMakeFiles/lab-lib.dir
 C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/lab-lib/CMakeFiles/ALL_BUILD.dir
+C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/lab-lib-test/CMakeFiles/lab-lib-test.dir
