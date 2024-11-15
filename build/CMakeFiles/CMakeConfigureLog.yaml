@@ -5,7 +5,7 @@ events:
     kind: "message-v1"
     backtrace:
       - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
-      - "CMakeLists.txt:4 (project)"
+      - "CMakeLists.txt:2 (project)"
     message: |
       The system is: Windows - 10.0.19042 - AMD64
   -
@@ -14,21 +14,53 @@ events:
       - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:4 (project)"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-      Compiler: C:/Strawberry/c/bin/gcc.exe 
+      Compiler:  
       Build flags: 
       Id flags:  
       
       The output was:
       0
+      Microsoft (R) Build Engine версии 16.11.2+f32259642 для .NET Framework
+      (C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+      
+      Сборка начата 15.11.2024 14:44:20.
+      Проект "C:\\Users\\YasperMoglot\\Desktop\\Ycheba\\4course\\4-course-os\\build\\CMakeFiles\\3.31.0\\CompilerIdC\\CompilerIdC.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      PrepareForBuild:
+        Создание каталога "Debug\\".
+        Создание каталога "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Создание "Debug\\CompilerIdC.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\YasperMoglot\\Desktop\\Ycheba\\4course\\4-course-os\\build\\CMakeFiles\\3.31.0\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Файл "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" удаляется.
+        Обращение к "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Сборка проекта "C:\\Users\\YasperMoglot\\Desktop\\Ycheba\\4course\\4-course-os\\build\\CMakeFiles\\3.31.0\\CompilerIdC\\CompilerIdC.vcxproj" завершена (целевые объекты по умолчанию).
+      
+      Сборка успешно завершена.
+          Предупреждений: 0
+          Ошибок: 0
+      
+      Прошло времени 00:00:00.94
       
       
-      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
       
-      The C compiler identification is GNU, found in:
-        C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/CMakeFiles/3.31.0/CompilerIdC/a.exe
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/CMakeFiles/3.31.0/CompilerIdC/CompilerIdC.exe
       
   -
     kind: "message-v1"
@@ -36,172 +68,217 @@ events:
       - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:4 (project)"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-      Compiler: C:/Strawberry/c/bin/g++.exe 
+      Compiler:  
       Build flags: 
       Id flags:  
       
       The output was:
       0
+      Microsoft (R) Build Engine версии 16.11.2+f32259642 для .NET Framework
+      (C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+      
+      Сборка начата 15.11.2024 14:44:21.
+      Проект "C:\\Users\\YasperMoglot\\Desktop\\Ycheba\\4course\\4-course-os\\build\\CMakeFiles\\3.31.0\\CompilerIdCXX\\CompilerIdCXX.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      PrepareForBuild:
+        Создание каталога "Debug\\".
+        Создание каталога "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Создание "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\YasperMoglot\\Desktop\\Ycheba\\4course\\4-course-os\\build\\CMakeFiles\\3.31.0\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Файл "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" удаляется.
+        Обращение к "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Сборка проекта "C:\\Users\\YasperMoglot\\Desktop\\Ycheba\\4course\\4-course-os\\build\\CMakeFiles\\3.31.0\\CompilerIdCXX\\CompilerIdCXX.vcxproj" завершена (целевые объекты по умолчанию).
+      
+      Сборка успешно завершена.
+          Предупреждений: 0
+          Ошибок: 0
+      
+      Прошло времени 00:00:00.56
       
       
-      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
       
-      The CXX compiler identification is GNU, found in:
-        C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/CMakeFiles/3.31.0/CompilerIdCXX/a.exe
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/CMakeFiles/3.31.0/CompilerIdCXX/CompilerIdCXX.exe
       
   -
     kind: "try_compile-v1"
     backtrace:
       - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
       - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:4 (project)"
+      - "CMakeLists.txt:2 (project)"
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/CMakeFiles/CMakeScratch/TryCompile-7h6jfd"
-      binary: "C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/CMakeFiles/CMakeScratch/TryCompile-7h6jfd"
+      source: "C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/CMakeFiles/CMakeScratch/TryCompile-rrrgvb"
+      binary: "C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/CMakeFiles/CMakeScratch/TryCompile-rrrgvb"
     cmakeVariables:
-      CMAKE_C_FLAGS: ""
-      CMAKE_C_FLAGS_DEBUG: "-g"
-      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
     buildResult:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/CMakeFiles/CMakeScratch/TryCompile-7h6jfd'
+        Change Dir: 'C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/CMakeFiles/CMakeScratch/TryCompile-rrrgvb'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Strawberry/c/bin/gmake.exe -f Makefile cmTC_292e3/fast
-        C:/Strawberry/c/bin/gmake.exe  -f CMakeFiles/cmTC_292e3.dir/build.make CMakeFiles/cmTC_292e3.dir/build
-        gmake.exe[1]: Entering directory 'C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/CMakeFiles/CMakeScratch/TryCompile-7h6jfd'
-        Building C object CMakeFiles/cmTC_292e3.dir/CMakeCCompilerABI.c.obj
-        C:/Strawberry/c/bin/gcc.exe   -v -o CMakeFiles/cmTC_292e3.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeCCompilerABI.c"
-        gcc.exe: error: C:/Program: No such file or directory
-        gcc.exe: error: Files/CMake/share/cmake-3.31/Modules/CMakeCCompilerABI.c: No such file or directory
-        Using built-in specs.
-        COLLECT_GCC=c:\\Strawberry\\c\\bin\\gcc.exe
-        Target: x86_64-w64-mingw32
-        Configured with: ../../../src/gcc-8.3.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --enable-shared --enable-static --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/opt/build/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/opt/build/prerequisites/x86_64-w64-mingw32-static --with-mpc=/opt/build/prerequisites/x86_64-w64-mingw32-static --with-isl=/opt/build/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh, Built by strawberryperl.com project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/opt/build/x86_64-830-posix-seh-rt_v6/mingw64/opt/include -I/opt/build/prerequisites/x86_64-zlib-static/include -I/opt/build/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/opt/build/x86_64-830-posix-seh-rt_v6/mingw64/opt/include -I/opt/build/prerequisites/x86_64-zlib-static/include -I/opt/build/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/opt/build/x86_64-830-posix-seh-rt_v6/mingw64/opt/include -I/opt/build/prerequisites/x86_64-zlib-static/include -I/opt/build/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/opt/build/x86_64-830-posix-seh-rt_v6/mingw64/opt/lib -L/opt/build/prerequisites/x86_64-zlib-static/lib -L/opt/build/prerequisites/x86_64-w64-mingw32-static/lib ' LD_FOR_TARGET=/opt/build/x86_64-830-posix-seh-rt_v6/mingw64/bin/ld.exe
-        Thread model: posix
-        gcc version 8.3.0 (x86_64-posix-seh, Built by strawberryperl.com project) 
-        Linking C executable cmTC_292e3.exe
-        "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_292e3.dir/objects.a
-        C:/Strawberry/c/bin/ar.exe qc CMakeFiles/cmTC_292e3.dir/objects.a @CMakeFiles/cmTC_292e3.dir/objects1.rsp
-        C:/Strawberry/c/bin/ar.exe: CMakeFiles/cmTC_292e3.dir/CMakeCCompilerABI.c.obj: No such file or directory
-        gmake.exe[1]: *** [CMakeFiles/cmTC_292e3.dir/build.make:103: cmTC_292e3.exe] Error 1
-        gmake.exe[1]: Leaving directory 'C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/CMakeFiles/CMakeScratch/TryCompile-7h6jfd'
-        gmake.exe: *** [Makefile:133: cmTC_292e3/fast] Error 2
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_e27ea.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine версии 16.11.2+f32259642 для .NET Framework
+        (C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
         
-      exitCode: 2
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
-      - "CMakeLists.txt:4 (project)"
-    checks:
-      - "Check for working C compiler: C:/Strawberry/c/bin/gcc.exe"
-    directories:
-      source: "C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/CMakeFiles/CMakeScratch/TryCompile-evwbrd"
-      binary: "C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/CMakeFiles/CMakeScratch/TryCompile-evwbrd"
-    cmakeVariables:
-      CMAKE_C_FLAGS: ""
-      CMAKE_C_FLAGS_DEBUG: "-g"
-      CMAKE_EXE_LINKER_FLAGS: ""
-    buildResult:
-      variable: "CMAKE_C_COMPILER_WORKS"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/CMakeFiles/CMakeScratch/TryCompile-evwbrd'
+        Сборка начата 15.11.2024 14:44:22.
+        Проект "C:\\Users\\YasperMoglot\\Desktop\\Ycheba\\4course\\4-course-os\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rrrgvb\\cmTC_e27ea.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_e27ea.dir\\Debug\\".
+          Создание каталога "C:\\Users\\YasperMoglot\\Desktop\\Ycheba\\4course\\4-course-os\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rrrgvb\\Debug\\".
+          Создание каталога "cmTC_e27ea.dir\\Debug\\cmTC_e27ea.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_e27ea.dir\\Debug\\cmTC_e27ea.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e27ea.dir\\Debug\\\\" /Fd"cmTC_e27ea.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.29.30154 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          CMakeCCompilerABI.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e27ea.dir\\Debug\\\\" /Fd"cmTC_e27ea.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\YasperMoglot\\Desktop\\Ycheba\\4course\\4-course-os\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rrrgvb\\Debug\\cmTC_e27ea.exe" /INCREMENTAL /ILK:"cmTC_e27ea.dir\\Debug\\cmTC_e27ea.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/CMakeFiles/CMakeScratch/TryCompile-rrrgvb/Debug/cmTC_e27ea.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/CMakeFiles/CMakeScratch/TryCompile-rrrgvb/Debug/cmTC_e27ea.lib" /MACHINE:X64  /machine:x64 cmTC_e27ea.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_e27ea.vcxproj -> C:\\Users\\YasperMoglot\\Desktop\\Ycheba\\4course\\4-course-os\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rrrgvb\\Debug\\cmTC_e27ea.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_e27ea.dir\\Debug\\cmTC_e27ea.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_e27ea.dir\\Debug\\cmTC_e27ea.tlog\\cmTC_e27ea.lastbuildstate".
+        Сборка проекта "C:\\Users\\YasperMoglot\\Desktop\\Ycheba\\4course\\4-course-os\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rrrgvb\\cmTC_e27ea.vcxproj" завершена (целевые объекты по умолчанию).
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Strawberry/c/bin/gmake.exe -f Makefile cmTC_c53a7/fast
-        C:/Strawberry/c/bin/gmake.exe  -f CMakeFiles/cmTC_c53a7.dir/build.make CMakeFiles/cmTC_c53a7.dir/build
-        gmake.exe[1]: Entering directory 'C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/CMakeFiles/CMakeScratch/TryCompile-evwbrd'
-        Building C object CMakeFiles/cmTC_c53a7.dir/testCCompiler.c.obj
-        C:/Strawberry/c/bin/gcc.exe    -o CMakeFiles/cmTC_c53a7.dir/testCCompiler.c.obj -c C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/CMakeFiles/CMakeScratch/TryCompile-evwbrd/testCCompiler.c
-        Linking C executable cmTC_c53a7.exe
-        "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_c53a7.dir/objects.a
-        C:/Strawberry/c/bin/ar.exe qc CMakeFiles/cmTC_c53a7.dir/objects.a @CMakeFiles/cmTC_c53a7.dir/objects1.rsp
-        C:/Strawberry/c/bin/gcc.exe -Wl,--whole-archive CMakeFiles/cmTC_c53a7.dir/objects.a -Wl,--no-whole-archive -o cmTC_c53a7.exe -Wl,--out-implib,libcmTC_c53a7.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_c53a7.dir/linkLibs.rsp
-        gmake.exe[1]: Leaving directory 'C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/CMakeFiles/CMakeScratch/TryCompile-evwbrd'
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.59
         
       exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.29.30154.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
   -
     kind: "try_compile-v1"
     backtrace:
       - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
       - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:4 (project)"
+      - "CMakeLists.txt:2 (project)"
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/CMakeFiles/CMakeScratch/TryCompile-9u8nlv"
-      binary: "C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/CMakeFiles/CMakeScratch/TryCompile-9u8nlv"
+      source: "C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/CMakeFiles/CMakeScratch/TryCompile-efcm7z"
+      binary: "C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/CMakeFiles/CMakeScratch/TryCompile-efcm7z"
     cmakeVariables:
-      CMAKE_CXX_FLAGS: ""
-      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
       CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
-      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
     buildResult:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/CMakeFiles/CMakeScratch/TryCompile-9u8nlv'
+        Change Dir: 'C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/CMakeFiles/CMakeScratch/TryCompile-efcm7z'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Strawberry/c/bin/gmake.exe -f Makefile cmTC_d7d74/fast
-        C:/Strawberry/c/bin/gmake.exe  -f CMakeFiles/cmTC_d7d74.dir/build.make CMakeFiles/cmTC_d7d74.dir/build
-        gmake.exe[1]: Entering directory 'C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/CMakeFiles/CMakeScratch/TryCompile-9u8nlv'
-        Building CXX object CMakeFiles/cmTC_d7d74.dir/CMakeCXXCompilerABI.cpp.obj
-        C:/Strawberry/c/bin/g++.exe   -v -o CMakeFiles/cmTC_d7d74.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp"
-        g++.exe: error: C:/Program: No such file or directory
-        g++.exe: error: Files/CMake/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp: No such file or directory
-        Using built-in specs.
-        COLLECT_GCC=c:\\Strawberry\\c\\bin\\g++.exe
-        Target: x86_64-w64-mingw32
-        Configured with: ../../../src/gcc-8.3.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --enable-shared --enable-static --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/opt/build/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/opt/build/prerequisites/x86_64-w64-mingw32-static --with-mpc=/opt/build/prerequisites/x86_64-w64-mingw32-static --with-isl=/opt/build/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh, Built by strawberryperl.com project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/opt/build/x86_64-830-posix-seh-rt_v6/mingw64/opt/include -I/opt/build/prerequisites/x86_64-zlib-static/include -I/opt/build/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/opt/build/x86_64-830-posix-seh-rt_v6/mingw64/opt/include -I/opt/build/prerequisites/x86_64-zlib-static/include -I/opt/build/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/opt/build/x86_64-830-posix-seh-rt_v6/mingw64/opt/include -I/opt/build/prerequisites/x86_64-zlib-static/include -I/opt/build/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/opt/build/x86_64-830-posix-seh-rt_v6/mingw64/opt/lib -L/opt/build/prerequisites/x86_64-zlib-static/lib -L/opt/build/prerequisites/x86_64-w64-mingw32-static/lib ' LD_FOR_TARGET=/opt/build/x86_64-830-posix-seh-rt_v6/mingw64/bin/ld.exe
-        Thread model: posix
-        gcc version 8.3.0 (x86_64-posix-seh, Built by strawberryperl.com project) 
-        Linking CXX executable cmTC_d7d74.exe
-        "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_d7d74.dir/objects.a
-        C:/Strawberry/c/bin/ar.exe qc CMakeFiles/cmTC_d7d74.dir/objects.a @CMakeFiles/cmTC_d7d74.dir/objects1.rsp
-        C:/Strawberry/c/bin/ar.exe: CMakeFiles/cmTC_d7d74.dir/CMakeCXXCompilerABI.cpp.obj: No such file or directory
-        gmake.exe[1]: *** [CMakeFiles/cmTC_d7d74.dir/build.make:103: cmTC_d7d74.exe] Error 1
-        gmake.exe[1]: Leaving directory 'C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/CMakeFiles/CMakeScratch/TryCompile-9u8nlv'
-        gmake.exe: *** [Makefile:133: cmTC_d7d74/fast] Error 2
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_8c3e4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine версии 16.11.2+f32259642 для .NET Framework
+        (C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
         
-      exitCode: 2
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:56 (try_compile)"
-      - "CMakeLists.txt:4 (project)"
-    checks:
-      - "Check for working CXX compiler: C:/Strawberry/c/bin/g++.exe"
-    directories:
-      source: "C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/CMakeFiles/CMakeScratch/TryCompile-zd4pix"
-      binary: "C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/CMakeFiles/CMakeScratch/TryCompile-zd4pix"
-    cmakeVariables:
-      CMAKE_CXX_FLAGS: ""
-      CMAKE_CXX_FLAGS_DEBUG: "-g"
-      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
-      CMAKE_EXE_LINKER_FLAGS: ""
-    buildResult:
-      variable: "CMAKE_CXX_COMPILER_WORKS"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/CMakeFiles/CMakeScratch/TryCompile-zd4pix'
+        Сборка начата 15.11.2024 14:44:22.
+        Проект "C:\\Users\\YasperMoglot\\Desktop\\Ycheba\\4course\\4-course-os\\build\\CMakeFiles\\CMakeScratch\\TryCompile-efcm7z\\cmTC_8c3e4.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_8c3e4.dir\\Debug\\".
+          Создание каталога "C:\\Users\\YasperMoglot\\Desktop\\Ycheba\\4course\\4-course-os\\build\\CMakeFiles\\CMakeScratch\\TryCompile-efcm7z\\Debug\\".
+          Создание каталога "cmTC_8c3e4.dir\\Debug\\cmTC_8c3e4.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_8c3e4.dir\\Debug\\cmTC_8c3e4.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_8c3e4.dir\\Debug\\\\" /Fd"cmTC_8c3e4.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.29.30154 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          CMakeCXXCompilerABI.cpp
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_8c3e4.dir\\Debug\\\\" /Fd"cmTC_8c3e4.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\YasperMoglot\\Desktop\\Ycheba\\4course\\4-course-os\\build\\CMakeFiles\\CMakeScratch\\TryCompile-efcm7z\\Debug\\cmTC_8c3e4.exe" /INCREMENTAL /ILK:"cmTC_8c3e4.dir\\Debug\\cmTC_8c3e4.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/CMakeFiles/CMakeScratch/TryCompile-efcm7z/Debug/cmTC_8c3e4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/CMakeFiles/CMakeScratch/TryCompile-efcm7z/Debug/cmTC_8c3e4.lib" /MACHINE:X64  /machine:x64 cmTC_8c3e4.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_8c3e4.vcxproj -> C:\\Users\\YasperMoglot\\Desktop\\Ycheba\\4course\\4-course-os\\build\\CMakeFiles\\CMakeScratch\\TryCompile-efcm7z\\Debug\\cmTC_8c3e4.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_8c3e4.dir\\Debug\\cmTC_8c3e4.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_8c3e4.dir\\Debug\\cmTC_8c3e4.tlog\\cmTC_8c3e4.lastbuildstate".
+        Сборка проекта "C:\\Users\\YasperMoglot\\Desktop\\Ycheba\\4course\\4-course-os\\build\\CMakeFiles\\CMakeScratch\\TryCompile-efcm7z\\cmTC_8c3e4.vcxproj" завершена (целевые объекты по умолчанию).
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Strawberry/c/bin/gmake.exe -f Makefile cmTC_71a1e/fast
-        C:/Strawberry/c/bin/gmake.exe  -f CMakeFiles/cmTC_71a1e.dir/build.make CMakeFiles/cmTC_71a1e.dir/build
-        gmake.exe[1]: Entering directory 'C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/CMakeFiles/CMakeScratch/TryCompile-zd4pix'
-        Building CXX object CMakeFiles/cmTC_71a1e.dir/testCXXCompiler.cxx.obj
-        C:/Strawberry/c/bin/g++.exe    -o CMakeFiles/cmTC_71a1e.dir/testCXXCompiler.cxx.obj -c C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/CMakeFiles/CMakeScratch/TryCompile-zd4pix/testCXXCompiler.cxx
-        Linking CXX executable cmTC_71a1e.exe
-        "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_71a1e.dir/objects.a
-        C:/Strawberry/c/bin/ar.exe qc CMakeFiles/cmTC_71a1e.dir/objects.a @CMakeFiles/cmTC_71a1e.dir/objects1.rsp
-        C:/Strawberry/c/bin/g++.exe -Wl,--whole-archive CMakeFiles/cmTC_71a1e.dir/objects.a -Wl,--no-whole-archive -o cmTC_71a1e.exe -Wl,--out-implib,libcmTC_71a1e.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_71a1e.dir/linkLibs.rsp
-        gmake.exe[1]: Leaving directory 'C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/CMakeFiles/CMakeScratch/TryCompile-zd4pix'
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.65
         
       exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.29.30154.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
 ...

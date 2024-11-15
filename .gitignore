@@ -7,6 +7,15 @@
 *.o
 *.obj
 
+#cmakebuild
+build/*
+!build/.gitkeep
+
+#vscode
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+
 # Precompiled Headers
 *.gch
 *.pch
@@ -31,3 +40,4 @@
 *.out
 *.app
 build.sh
+build.cmd

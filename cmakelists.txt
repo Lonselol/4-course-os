@@ -1,10 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
+project(4-course-os)
 
-# Название проекта
-project(HelloWorld)
-
-# Установка стандарта C++
-set(CMAKE_CXX_STANDARD 17)
-
-# Добавление исполняемого файла и указание пути к main.cpp
-add_executable(HelloWorld src/main.cpp)
+add_subdirectory(lab-helloworld)
+add_subdirectory(lab-lib)
