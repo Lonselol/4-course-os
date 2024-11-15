@@ -48,7 +48,12 @@
 				"cxx",
 				"mm",
 				"mpp",
-				"CPP"
+				"CPP",
+				"ixx",
+				"cppm",
+				"ccm",
+				"cxxm",
+				"c++m"
 			]
 		},
 		{

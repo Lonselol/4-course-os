@@ -2,6 +2,7 @@
 {
   "directory": "C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build",
   "command": "C:/Strawberry/c/bin/g++.exe   -g -std=gnu++17 -o CMakeFiles/HelloWorld.dir/src/main.cpp.obj -c C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/src/main.cpp",
-  "file": "C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/src/main.cpp"
+  "file": "C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/src/main.cpp",
+  "output": "CMakeFiles/HelloWorld.dir/src/main.cpp.obj"
 }
 ]
