@@ -13,8 +13,8 @@ build/*
 
 #vscode
 .vscode/*
-!.vscode/tasks.json
 !.vscode/launch.json
+!.vscode/tasks.json
 
 # Precompiled Headers
 *.gch

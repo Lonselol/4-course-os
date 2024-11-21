@@ -5,7 +5,8 @@
             "name": "Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/build",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}\\build\\${fileDirnameBasename}\\${fileDirnameBasename}",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
@@ -20,7 +21,6 @@
                     "ignoreFailures": true
                 }
             ],
-            "preLaunchTask": "build",
             "linux": {
                 "MIMode": "gdb",
                 "miDebuggerPath": "/usr/bin/gdb"
