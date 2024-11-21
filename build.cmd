@@ -7,7 +7,7 @@ mkdir build
 cd build
 
 :: Указание генератора и компиляторов
-cmake -G "MinGW Makefiles" -DCMAKE_C_COMPILER=gcc -DCMAKE_CXX_COMPILER=g++ ..
+cmake -G "MinGW Makefiles" -DCMAKE_C_COMPILER=gcc -DCMAKE_CXX_COMPILER=g++ -DCMAKE_BUILD_TYPE=Debug ..
 
 :: Сборка
 cmake --build . --config Debug
