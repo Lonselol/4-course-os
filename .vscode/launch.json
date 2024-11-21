@@ -2,11 +2,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Launch",
+            "name": "LaunchDebug",
             "type": "cppdbg",
             "request": "launch",
-            "preLaunchTask": "build",
-            "program": "${workspaceFolder}\\build\\${fileDirnameBasename}\\${fileDirnameBasename}",
+            "program": "${workspaceFolder}\\build\\${fileDirnameBasename}\\${fileDirnameBasename}.exe",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
@@ -21,6 +20,7 @@
                     "ignoreFailures": true
                 }
             ],
+            "preLaunchTask": "build",
             "linux": {
                 "MIMode": "gdb",
                 "miDebuggerPath": "/usr/bin/gdb"

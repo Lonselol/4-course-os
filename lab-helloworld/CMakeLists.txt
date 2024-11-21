@@ -7,4 +7,7 @@ set(CMAKE_CXX_STANDARD 17)
 if(EXISTS "${CMAKE_BINARY_DIR}/lab-helloworld")
     file(REMOVE "${CMAKE_BINARY_DIR}/lab-helloworld")
 endif()
+
+set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -g -O0")
+
 add_executable(lab-helloworld main.cpp)
