@@ -25,11 +25,6 @@
             "windows": {
                 "MIMode": "gdb",
                 "program": "${workspaceFolder}\\build\\${fileDirnameBasename}\\${fileDirnameBasename}.exe",
-            },
-            "logging": { 
-                "engineLogging": true,
-                "trace": true, 
-                "traceResponse": true
             }
         },
     ]

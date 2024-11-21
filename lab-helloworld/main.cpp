@@ -1,9 +1,12 @@
 #include <iostream>
+#include <Windows.h>
 
 using namespace std;
 
 int main() {
-    int a = 10;
-    cout << "Hello, World!" << endl;
+    while(true) {
+        Sleep(500);
+        cout << "Hello world!" << endl;
+    }
     return 0;
 }
