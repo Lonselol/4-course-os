@@ -25,7 +25,7 @@
             },
             "windows": {
                 "MIMode": "gdb",
-                "miDebuggerPath": "C:\\MinGW\\bin\\gdb.exe",
+                "miDebuggerPath": "C:\\Strawberry\\c\\bin\\gdb.exe",
                 "program": "${workspaceFolder}\\build\\${fileDirnameBasename}\\${fileDirnameBasename}.exe",
             }
         },
