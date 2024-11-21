@@ -2,17 +2,15 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "LaunchDebug",
+            "name": "CMakeBuildAndDebug",
+            "preLaunchTask": "build",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}\\build\\${fileDirnameBasename}\\${fileDirnameBasename}.exe",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],
             "externalConsole": true,
-            "MIMode": "gdb",
-            "miDebuggerPath": "/usr/bin/gdb",
             "setupCommands": [
                 {
                     "description": "Enable pretty-printing for gdb",
@@ -20,15 +18,16 @@
                     "ignoreFailures": true
                 }
             ],
-            "preLaunchTask": "build",
             "linux": {
                 "MIMode": "gdb",
-                "miDebuggerPath": "/usr/bin/gdb"
+                "miDebuggerPath": "/usr/bin/gdb",
+                "program": "${workspaceFolder}\\build\\${fileDirnameBasename}\\${fileDirnameBasename}",
             },
             "windows": {
                 "MIMode": "gdb",
-                "miDebuggerPath": "C:\\mingw32\\bin\\gdb.exe"
+                "miDebuggerPath": "C:\\MinGW\\bin\\gdb.exe",
+                "program": "${workspaceFolder}\\build\\${fileDirnameBasename}\\${fileDirnameBasename}.exe",
             }
-        }
+        },
     ]
 }

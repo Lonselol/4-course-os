@@ -39,5 +39,3 @@ build/*
 *.exe
 *.out
 *.app
-build.sh
-build.cmd
