@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -g -O0 -Wl,--dependency-file,CMakeFiles/lab-lib-test.dir/link.d "CMakeFiles/lab-lib-test.dir/test.cpp.o" -o lab-lib-test

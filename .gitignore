@@ -8,8 +8,7 @@
 *.obj
 
 #cmakebuild
-build/*
-!build/.gitkeep
+.build/*
 
 #vscode
 .vscode/*

@@ -10,7 +10,7 @@
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],
-            "externalConsole": true,
+            "externalConsole": false,
             "setupCommands": [
                 {
                     "description": "Enable pretty-printing for gdb",
@@ -27,6 +27,11 @@
                 "MIMode": "gdb",
                 "miDebuggerPath": "C:\\Strawberry\\c\\bin\\gdb.exe",
                 "program": "${workspaceFolder}\\build\\${fileDirnameBasename}\\${fileDirnameBasename}.exe",
+            },
+            "logging": { 
+                "engineLogging": true,
+                "trace": true, 
+                "traceResponse": true
             }
         },
     ]
