@@ -1,1 +1,0 @@
-/usr/bin/g++ -g -g -O0 -Wl,--dependency-file,CMakeFiles/lab-helloworld.dir/link.d "CMakeFiles/lab-helloworld.dir/main.cpp.o" -o lab-helloworld

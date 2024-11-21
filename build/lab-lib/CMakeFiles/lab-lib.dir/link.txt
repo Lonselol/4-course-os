@@ -1,1 +1,0 @@
-/usr/bin/g++ -g -g -O0 -Wl,--dependency-file,CMakeFiles/lab-lib.dir/link.d "CMakeFiles/lab-lib.dir/process_launcher.cpp.o" -o lab-lib
