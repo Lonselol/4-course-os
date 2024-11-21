@@ -282,3 +282,210 @@ events:
       Microsoft (R) Incremental Linker Version 14.29.30154.0
       Copyright (C) Microsoft Corporation.  All rights reserved.
 ...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.19042 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Strawberry/c/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/CMakeFiles/3.31.0/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Strawberry/c/bin/g++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/CMakeFiles/3.31.0/CompilerIdCXX/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/CMakeFiles/CMakeScratch/TryCompile-8tmc9f"
+      binary: "C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/CMakeFiles/CMakeScratch/TryCompile-8tmc9f"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/CMakeFiles/CMakeScratch/TryCompile-8tmc9f'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Strawberry/c/bin/gmake.exe -f Makefile cmTC_1ac67/fast
+        C:/Strawberry/c/bin/gmake.exe  -f CMakeFiles/cmTC_1ac67.dir/build.make CMakeFiles/cmTC_1ac67.dir/build
+        gmake.exe[1]: Entering directory 'C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/CMakeFiles/CMakeScratch/TryCompile-8tmc9f'
+        Building C object CMakeFiles/cmTC_1ac67.dir/CMakeCCompilerABI.c.obj
+        C:/Strawberry/c/bin/gcc.exe   -v -o CMakeFiles/cmTC_1ac67.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeCCompilerABI.c"
+        gcc.exe: error: C:/Program: No such file or directory
+        gcc.exe: error: Files/CMake/share/cmake-3.31/Modules/CMakeCCompilerABI.c: No such file or directory
+        Using built-in specs.
+        COLLECT_GCC=c:\\Strawberry\\c\\bin\\gcc.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../../../src/gcc-8.3.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --enable-shared --enable-static --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/opt/build/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/opt/build/prerequisites/x86_64-w64-mingw32-static --with-mpc=/opt/build/prerequisites/x86_64-w64-mingw32-static --with-isl=/opt/build/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh, Built by strawberryperl.com project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/opt/build/x86_64-830-posix-seh-rt_v6/mingw64/opt/include -I/opt/build/prerequisites/x86_64-zlib-static/include -I/opt/build/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/opt/build/x86_64-830-posix-seh-rt_v6/mingw64/opt/include -I/opt/build/prerequisites/x86_64-zlib-static/include -I/opt/build/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/opt/build/x86_64-830-posix-seh-rt_v6/mingw64/opt/include -I/opt/build/prerequisites/x86_64-zlib-static/include -I/opt/build/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/opt/build/x86_64-830-posix-seh-rt_v6/mingw64/opt/lib -L/opt/build/prerequisites/x86_64-zlib-static/lib -L/opt/build/prerequisites/x86_64-w64-mingw32-static/lib ' LD_FOR_TARGET=/opt/build/x86_64-830-posix-seh-rt_v6/mingw64/bin/ld.exe
+        Thread model: posix
+        gcc version 8.3.0 (x86_64-posix-seh, Built by strawberryperl.com project) 
+        Linking C executable cmTC_1ac67.exe
+        "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_1ac67.dir/objects.a
+        C:/Strawberry/c/bin/ar.exe qc CMakeFiles/cmTC_1ac67.dir/objects.a @CMakeFiles/cmTC_1ac67.dir/objects1.rsp
+        C:/Strawberry/c/bin/ar.exe: CMakeFiles/cmTC_1ac67.dir/CMakeCCompilerABI.c.obj: No such file or directory
+        gmake.exe[1]: *** [CMakeFiles/cmTC_1ac67.dir/build.make:103: cmTC_1ac67.exe] Error 1
+        gmake.exe[1]: Leaving directory 'C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/CMakeFiles/CMakeScratch/TryCompile-8tmc9f'
+        gmake.exe: *** [Makefile:133: cmTC_1ac67/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Check for working C compiler: C:/Strawberry/c/bin/gcc.exe"
+    directories:
+      source: "C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/CMakeFiles/CMakeScratch/TryCompile-p8c861"
+      binary: "C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/CMakeFiles/CMakeScratch/TryCompile-p8c861"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/CMakeFiles/CMakeScratch/TryCompile-p8c861'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Strawberry/c/bin/gmake.exe -f Makefile cmTC_9c9c4/fast
+        C:/Strawberry/c/bin/gmake.exe  -f CMakeFiles/cmTC_9c9c4.dir/build.make CMakeFiles/cmTC_9c9c4.dir/build
+        gmake.exe[1]: Entering directory 'C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/CMakeFiles/CMakeScratch/TryCompile-p8c861'
+        Building C object CMakeFiles/cmTC_9c9c4.dir/testCCompiler.c.obj
+        C:/Strawberry/c/bin/gcc.exe    -o CMakeFiles/cmTC_9c9c4.dir/testCCompiler.c.obj -c C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/CMakeFiles/CMakeScratch/TryCompile-p8c861/testCCompiler.c
+        Linking C executable cmTC_9c9c4.exe
+        "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_9c9c4.dir/objects.a
+        C:/Strawberry/c/bin/ar.exe qc CMakeFiles/cmTC_9c9c4.dir/objects.a @CMakeFiles/cmTC_9c9c4.dir/objects1.rsp
+        C:/Strawberry/c/bin/gcc.exe -Wl,--whole-archive CMakeFiles/cmTC_9c9c4.dir/objects.a -Wl,--no-whole-archive -o cmTC_9c9c4.exe -Wl,--out-implib,libcmTC_9c9c4.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_9c9c4.dir/linkLibs.rsp
+        gmake.exe[1]: Leaving directory 'C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/CMakeFiles/CMakeScratch/TryCompile-p8c861'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/CMakeFiles/CMakeScratch/TryCompile-2bia4y"
+      binary: "C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/CMakeFiles/CMakeScratch/TryCompile-2bia4y"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/CMakeFiles/CMakeScratch/TryCompile-2bia4y'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Strawberry/c/bin/gmake.exe -f Makefile cmTC_79357/fast
+        C:/Strawberry/c/bin/gmake.exe  -f CMakeFiles/cmTC_79357.dir/build.make CMakeFiles/cmTC_79357.dir/build
+        gmake.exe[1]: Entering directory 'C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/CMakeFiles/CMakeScratch/TryCompile-2bia4y'
+        Building CXX object CMakeFiles/cmTC_79357.dir/CMakeCXXCompilerABI.cpp.obj
+        C:/Strawberry/c/bin/g++.exe   -v -o CMakeFiles/cmTC_79357.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp"
+        g++.exe: error: C:/Program: No such file or directory
+        g++.exe: error: Files/CMake/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp: No such file or directory
+        Using built-in specs.
+        COLLECT_GCC=c:\\Strawberry\\c\\bin\\g++.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../../../src/gcc-8.3.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --enable-shared --enable-static --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/opt/build/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/opt/build/prerequisites/x86_64-w64-mingw32-static --with-mpc=/opt/build/prerequisites/x86_64-w64-mingw32-static --with-isl=/opt/build/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh, Built by strawberryperl.com project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/opt/build/x86_64-830-posix-seh-rt_v6/mingw64/opt/include -I/opt/build/prerequisites/x86_64-zlib-static/include -I/opt/build/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/opt/build/x86_64-830-posix-seh-rt_v6/mingw64/opt/include -I/opt/build/prerequisites/x86_64-zlib-static/include -I/opt/build/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/opt/build/x86_64-830-posix-seh-rt_v6/mingw64/opt/include -I/opt/build/prerequisites/x86_64-zlib-static/include -I/opt/build/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/opt/build/x86_64-830-posix-seh-rt_v6/mingw64/opt/lib -L/opt/build/prerequisites/x86_64-zlib-static/lib -L/opt/build/prerequisites/x86_64-w64-mingw32-static/lib ' LD_FOR_TARGET=/opt/build/x86_64-830-posix-seh-rt_v6/mingw64/bin/ld.exe
+        Thread model: posix
+        gcc version 8.3.0 (x86_64-posix-seh, Built by strawberryperl.com project) 
+        Linking CXX executable cmTC_79357.exe
+        "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_79357.dir/objects.a
+        C:/Strawberry/c/bin/ar.exe qc CMakeFiles/cmTC_79357.dir/objects.a @CMakeFiles/cmTC_79357.dir/objects1.rsp
+        C:/Strawberry/c/bin/ar.exe: CMakeFiles/cmTC_79357.dir/CMakeCXXCompilerABI.cpp.obj: No such file or directory
+        gmake.exe[1]: *** [CMakeFiles/cmTC_79357.dir/build.make:103: cmTC_79357.exe] Error 1
+        gmake.exe[1]: Leaving directory 'C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/CMakeFiles/CMakeScratch/TryCompile-2bia4y'
+        gmake.exe: *** [Makefile:133: cmTC_79357/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Check for working CXX compiler: C:/Strawberry/c/bin/g++.exe"
+    directories:
+      source: "C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/CMakeFiles/CMakeScratch/TryCompile-a1bilo"
+      binary: "C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/CMakeFiles/CMakeScratch/TryCompile-a1bilo"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/CMakeFiles/CMakeScratch/TryCompile-a1bilo'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Strawberry/c/bin/gmake.exe -f Makefile cmTC_7e952/fast
+        C:/Strawberry/c/bin/gmake.exe  -f CMakeFiles/cmTC_7e952.dir/build.make CMakeFiles/cmTC_7e952.dir/build
+        gmake.exe[1]: Entering directory 'C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/CMakeFiles/CMakeScratch/TryCompile-a1bilo'
+        Building CXX object CMakeFiles/cmTC_7e952.dir/testCXXCompiler.cxx.obj
+        C:/Strawberry/c/bin/g++.exe    -o CMakeFiles/cmTC_7e952.dir/testCXXCompiler.cxx.obj -c C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/CMakeFiles/CMakeScratch/TryCompile-a1bilo/testCXXCompiler.cxx
+        Linking CXX executable cmTC_7e952.exe
+        "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_7e952.dir/objects.a
+        C:/Strawberry/c/bin/ar.exe qc CMakeFiles/cmTC_7e952.dir/objects.a @CMakeFiles/cmTC_7e952.dir/objects1.rsp
+        C:/Strawberry/c/bin/g++.exe -Wl,--whole-archive CMakeFiles/cmTC_7e952.dir/objects.a -Wl,--no-whole-archive -o cmTC_7e952.exe -Wl,--out-implib,libcmTC_7e952.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_7e952.dir/linkLibs.rsp
+        gmake.exe[1]: Leaving directory 'C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/CMakeFiles/CMakeScratch/TryCompile-a1bilo'
+        
+      exitCode: 0
+...

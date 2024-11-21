@@ -1,7 +1,11 @@
-C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/CMakeFiles/edit_cache.dir
+C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/CMakeFiles/rebuild_cache.dir
 C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/lab-helloworld/CMakeFiles/lab-helloworld.dir
-C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/lab-helloworld/CMakeFiles/ALL_BUILD.dir
+C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/lab-helloworld/CMakeFiles/edit_cache.dir
+C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/lab-helloworld/CMakeFiles/rebuild_cache.dir
 C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/lab-lib/CMakeFiles/lab-lib.dir
-C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/lab-lib/CMakeFiles/ALL_BUILD.dir
+C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/lab-lib/CMakeFiles/edit_cache.dir
+C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/lab-lib/CMakeFiles/rebuild_cache.dir
 C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/lab-lib-test/CMakeFiles/lab-lib-test.dir
+C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/lab-lib-test/CMakeFiles/edit_cache.dir
+C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/lab-lib-test/CMakeFiles/rebuild_cache.dir
