@@ -20,12 +20,10 @@
             ],
             "linux": {
                 "MIMode": "gdb",
-                "miDebuggerPath": "/usr/bin/gdb",
                 "program": "${workspaceFolder}\\build\\${fileDirnameBasename}\\${fileDirnameBasename}",
             },
             "windows": {
                 "MIMode": "gdb",
-                "miDebuggerPath": "C:\\Strawberry\\c\\bin\\gdb.exe",
                 "program": "${workspaceFolder}\\build\\${fileDirnameBasename}\\${fileDirnameBasename}.exe",
             },
             "logging": { 
