@@ -10,4 +10,4 @@ endif()
 
 set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -g -O0")
 
-add_executable(lab-lib process_launcher.cpp)
+add_executable(lab-lib main.cpp process_launcher.cpp)

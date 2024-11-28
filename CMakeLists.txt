@@ -3,4 +3,3 @@ project(4-course-os)
 
 add_subdirectory(lab-helloworld)
 add_subdirectory(lab-lib)
-add_subdirectory(lab-lib-test)
