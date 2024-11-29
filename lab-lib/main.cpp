@@ -1,22 +1,27 @@
 #include "process_launcher.h"
 #include <iostream>
+#include <vector>
+#include <string>
 
 int main(int argc, char* argv[]) {
     int exit_code;
     int result;
 
+    std::string program;
+    std::vector<std::string> args;
+
     if (argc < 2) {
-        std::string program =
         #ifdef _WIN32
-            "notepad.exe";
+            program = "notepad.exe";
         #else
-            "/bin/ls";
+            program = "/bin/ls";
+            args.push_back("-l");
         #endif
+
         std::cout << "No program specified, using default: " << program << "\n";
-        result = process_launcher::run_process(program, {}, exit_code);
+        result = process_launcher::run_process(program, args, exit_code);
     } else {
-        std::string program = argv[1];
-        std::vector<std::string> args;
+        program = argv[1];
         for (int i = 2; i < argc; ++i) {
             args.push_back(argv[i]);
         }
@@ -29,6 +34,5 @@ int main(int argc, char* argv[]) {
     } else {
         std::cerr << "Failed to run program." << std::endl;
     }
-
     return result;
 }
