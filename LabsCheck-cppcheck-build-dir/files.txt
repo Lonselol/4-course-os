@@ -1,0 +1,8 @@
+CMakeCCompilerId.a1::C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/CMakeFiles/3.31.0/CompilerIdC/CMakeCCompilerId.c
+CMakeCXXCompilerId.a1::C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/CMakeFiles/3.31.0/CompilerIdCXX/CMakeCXXCompilerId.cpp
+CMakeCCompilerId.a2::C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/lab-multiple-log/CMakeFiles/3.31.0/CompilerIdC/CMakeCCompilerId.c
+CMakeCXXCompilerId.a2::C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/build/lab-multiple-log/CMakeFiles/3.31.0/CompilerIdCXX/CMakeCXXCompilerId.cpp
+main.a1::C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/lab-helloworld/main.cpp
+main.a2::C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/lab-lib/main.cpp
+process_launcher.a1::C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/lab-lib/process_launcher.cpp
+main.a3::C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/lab-multiple-log/main.cpp

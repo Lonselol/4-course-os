@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="5623235857998975908">
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::transform algorithm instead of a raw loop." verbose="Consider using std::transform algorithm instead of a raw loop." cwe="398" file0="C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/lab-lib/process_launcher.cpp">
+            <location file="C:\Users\YasperMoglot\Desktop\Ycheba\4course\4-course-os\lab-lib\process_launcher.cpp" line="56" column="20"/>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::accumulate algorithm instead of a raw loop." verbose="Consider using std::accumulate algorithm instead of a raw loop." cwe="398" file0="C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/lab-lib/process_launcher.cpp">
+            <location file="C:\Users\YasperMoglot\Desktop\Ycheba\4course\4-course-os\lab-lib\process_launcher.cpp" line="13" column="17"/>
+        </error>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/lab-lib/process_launcher.h:18:5" my-argnr="1" my-argname="program" file="C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/lab-lib/process_launcher.cpp" line="11" col="27" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="run_process" lineNumber="6"/>
+    <functiondecl functionName="run_process" lineNumber="6"/>
+    <functioncall functionName="CloseHandle"/>
+    <functioncall functionName="CreateProcess"/>
+    <functioncall functionName="FALSE"/>
+    <functioncall functionName="GetExitCodeProcess"/>
+    <functioncall functionName="INFINITE"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="WEXITSTATUS"/>
+    <functioncall functionName="WIFEXITED"/>
+    <functioncall functionName="WaitForSingleObject"/>
+    <functioncall functionName="_exit"/>
+    <functioncall functionName="arg"/>
+    <functioncall functionName="args"/>
+    <functioncall functionName="c_str"/>
+    <functioncall functionName="char"/>
+    <functioncall functionName="code"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="const_cast"/>
+    <functioncall functionName="data"/>
+    <functioncall functionName="execvp"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="fork"/>
+    <functioncall functionName="hProcess"/>
+    <functioncall functionName="hThread"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="pi"/>
+    <functioncall functionName="pid"/>
+    <functioncall functionName="program"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="si"/>
+    <functioncall functionName="sizeof"/>
+    <functioncall functionName="static_cast"/>
+    <functioncall functionName="status"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="waitpid"/>
+  </FileInfo>
+</analyzerinfo>

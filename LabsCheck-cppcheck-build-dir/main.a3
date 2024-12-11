@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="8839631196006161720">
+        <error id="returnDanglingLifetime" severity="error" msg="Returning object that points to local variable &apos;wstr&apos; that will be invalid when returning." verbose="Returning object that points to local variable &apos;wstr&apos; that will be invalid when returning." cwe="562" file0="C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/lab-multiple-log/main.cpp">
+            <location file="C:\Users\YasperMoglot\Desktop\Ycheba\4course\4-course-os\lab-multiple-log\main.cpp" line="47" column="22"/>
+            <location file="C:\Users\YasperMoglot\Desktop\Ycheba\4course\4-course-os\lab-multiple-log\main.cpp" line="46" column="18" info="Variable created here."/>
+            <location file="C:\Users\YasperMoglot\Desktop\Ycheba\4course\4-course-os\lab-multiple-log\main.cpp" line="47" column="22" info="Pointer to container is created here."/>
+        </error>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/lab-multiple-log/main.cpp:44:9" my-argnr="1" my-argname="str" file="C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/lab-multiple-log/main.cpp" line="46" col="23" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/lab-multiple-log/main.cpp:44:9" my-argnr="1" my-argname="str" file="C:/Users/YasperMoglot/Desktop/Ycheba/4course/4-course-os/lab-multiple-log/main.cpp" line="46" col="23" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="write_log" lineNumber="26"/>
+    <functiondecl functionName="get_current_time" lineNumber="34"/>
+    <functiondecl functionName="string_to_lpcwstr" lineNumber="44"/>
+    <functiondecl functionName="check_and_set_master" lineNumber="50"/>
+    <functiondecl functionName="release_master" lineNumber="72"/>
+    <functiondecl functionName="timer_function" lineNumber="81"/>
+    <functiondecl functionName="log_master_function" lineNumber="88"/>
+    <functiondecl functionName="user_input_function" lineNumber="97"/>
+    <functiondecl functionName="child_copy_1" lineNumber="121"/>
+    <functiondecl functionName="child_copy_2" lineNumber="129"/>
+    <functiondecl functionName="spawn_children" lineNumber="139"/>
+    <functiondecl functionName="signal_handler" lineNumber="175"/>
+    <functiondecl functionName="main" lineNumber="179"/>
+    <functiondecl functionName="write_log" lineNumber="26"/>
+    <functiondecl functionName="get_current_time" lineNumber="34"/>
+    <functiondecl functionName="string_to_lpcwstr" lineNumber="44"/>
+    <functiondecl functionName="check_and_set_master" lineNumber="50"/>
+    <functiondecl functionName="release_master" lineNumber="72"/>
+    <functiondecl functionName="timer_function" lineNumber="81"/>
+    <functiondecl functionName="log_master_function" lineNumber="88"/>
+    <functiondecl functionName="user_input_function" lineNumber="97"/>
+    <functiondecl functionName="child_copy_1" lineNumber="121"/>
+    <functiondecl functionName="child_copy_2" lineNumber="129"/>
+    <functiondecl functionName="spawn_children" lineNumber="139"/>
+    <functiondecl functionName="signal_handler" lineNumber="175"/>
+    <functiondecl functionName="main" lineNumber="179"/>
+    <functioncall functionName="CREATE_ALWAYS"/>
+    <functioncall functionName="CloseHandle"/>
+    <functioncall functionName="CreateFile"/>
+    <functioncall functionName="CreateThread"/>
+    <functioncall functionName="DeleteFile"/>
+    <functioncall functionName="FILE_ATTRIBUTE_NORMAL"/>
+    <functioncall functionName="F_TLOCK"/>
+    <functioncall functionName="GENERIC_WRITE"/>
+    <functioncall functionName="LPTHREAD_START_ROUTINE"/>
+    <functioncall functionName="O_WRONLY"/>
+    <functioncall functionName="app"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="bool"/>
+    <functioncall functionName="buf"/>
+    <functioncall functionName="c_str"/>
+    <functioncall functionName="check_and_set_master"/>
+    <functioncall functionName="child_1_running"/>
+    <functioncall functionName="child_2_running"/>
+    <functioncall functionName="child_copy_1"/>
+    <functioncall functionName="child_copy_2"/>
+    <functioncall functionName="close"/>
+    <functioncall functionName="count"/>
+    <functioncall functionName="duration_cast"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="exit"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="fd"/>
+    <functioncall functionName="file"/>
+    <functioncall functionName="fork"/>
+    <functioncall functionName="get_current_time"/>
+    <functioncall functionName="getpid"/>
+    <functioncall functionName="handle1"/>
+    <functioncall functionName="handle2"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="input_thread"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="is_master"/>
+    <functioncall functionName="is_open"/>
+    <functioncall functionName="join"/>
+    <functioncall functionName="joinable"/>
+    <functioncall functionName="load"/>
+    <functioncall functionName="localtime"/>
+    <functioncall functionName="lock"/>
+    <functioncall functionName="lock_file"/>
+    <functioncall functionName="lockf"/>
+    <functioncall functionName="log"/>
+    <functioncall functionName="log_file"/>
+    <functioncall functionName="log_master_function"/>
+    <functioncall functionName="log_mutex"/>
+    <functioncall functionName="milliseconds"/>
+    <functioncall functionName="mutex"/>
+    <functioncall functionName="now"/>
+    <functioncall functionName="now_c"/>
+    <functioncall functionName="nullptr"/>
+    <functioncall functionName="open"/>
+    <functioncall functionName="pid"/>
+    <functioncall functionName="release_master"/>
+    <functioncall functionName="seconds"/>
+    <functioncall functionName="signal"/>
+    <functioncall functionName="signal_handler"/>
+    <functioncall functionName="sizeof"/>
+    <functioncall functionName="sleep_for"/>
+    <functioncall functionName="spawn_children"/>
+    <functioncall functionName="strftime"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="string_to_lpcwstr"/>
+    <functioncall functionName="terminate_program"/>
+    <functioncall functionName="thread"/>
+    <functioncall functionName="time_since_epoch"/>
+    <functioncall functionName="timer_function"/>
+    <functioncall functionName="timer_thread"/>
+    <functioncall functionName="to_string"/>
+    <functioncall functionName="to_time_t"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="unlink"/>
+    <functioncall functionName="user_input_function"/>
+    <functioncall functionName="value"/>
+    <functioncall functionName="while"/>
+    <functioncall functionName="wide_lock_file"/>
+    <functioncall functionName="write_log"/>
+    <functioncall functionName="wstr"/>
+  </FileInfo>
+</analyzerinfo>
