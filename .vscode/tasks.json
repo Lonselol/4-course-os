@@ -4,17 +4,17 @@
         {
             "label": "build",
             "type": "shell",
-            "windows":{
+            "windows": {
                 "command": "./build.cmd",
+                "args": ["${fileDirnameBasename}"]
             },
-            "linux":{
-                "command": "./build.sh"
+            "linux": {
+                "command": "./build.sh",
+                "args": ["${fileDirnameBasename}"]
             },
             "group": "build",
-            "problemMatcher": [
-                "$gcc"
-            ],
-            "detail": "CMake build task"
-        },
+            "problemMatcher": ["$gcc"],
+            "detail": "CMake build task for the current lab"
+        }
     ]
 }

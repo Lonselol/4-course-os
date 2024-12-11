@@ -8,7 +8,7 @@
             "request": "launch",
             "args": [],
             "stopAtEntry": false,
-            "cwd": "${workspaceFolder}",
+            "cwd": "${workspaceFolder}/${fileDirnameBasename}",
             "environment": [],
             "externalConsole": false,
             "setupCommands": [
@@ -20,12 +20,12 @@
             ],
             "linux": {
                 "MIMode": "gdb",
-                "program": "${workspaceFolder}\\build\\${fileDirnameBasename}\\${fileDirnameBasename}",
+                "program": "${workspaceFolder}/build/${fileDirnameBasename}/${fileDirnameBasename}"
             },
             "windows": {
                 "MIMode": "gdb",
-                "program": "${workspaceFolder}\\build\\${fileDirnameBasename}\\${fileDirnameBasename}.exe",
+                "program": "${workspaceFolder}\\build\\${fileDirnameBasename}\\${fileDirnameBasename}.exe"
             }
-        },
+        }
     ]
 }
