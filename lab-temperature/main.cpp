@@ -4,9 +4,9 @@
 #include <boost/asio/serial_port.hpp>
 
 #ifdef _WIN32
-#define DEFAULT_PORT "COM3" // Windows
+#define DEFAULT_PORT "COM1" // Windows
 #else
-#define DEFAULT_PORT "/dev/ttyUSB0" // Linux
+#define DEFAULT_PORT "/dev/ttyS0" // Linux
 #endif
 #define DEFAULT_BAUDRATE 9600
 

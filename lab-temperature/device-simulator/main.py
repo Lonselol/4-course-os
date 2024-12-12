@@ -26,8 +26,9 @@ def simulate_device_serial(port=None, baudrate=DEFAULT_BAUDRATE):
         port = get_default_port()
 
     try:
+        print(f"Подключаемся к порту {port}")
         # Открытие порта
-        with serial.Serial(port, baudrate, timeout=1) as ser:
+        with serial.Serial(port, baudrate, timeout=1, exclusive=False) as ser:
             print(f"Устройство подключено к порту {port} с baudrate {baudrate}")
             while True:
                 # Генерация случайной температуры
