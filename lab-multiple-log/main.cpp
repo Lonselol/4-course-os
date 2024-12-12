@@ -36,7 +36,7 @@ SharedCounter* shared_counter;
 LPCSTR lock_file = "Global\\master.lock";
 HANDLE master_semaphore;
 #else
-const char* lock_file = "/tmp/master.lock";
+const char* lock_file = "/master_lock";
 sem_t* master_semaphore;
 #endif
 
