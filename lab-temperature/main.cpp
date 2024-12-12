@@ -29,7 +29,7 @@ void read_temperature(const std::string &port_name, unsigned int baud_rate) {
         char buffer[128];
         while (true) {
             boost::system::error_code ec;
-            std::size_t len = read(serial, buffer(buffer, sizeof(buffer) - 1), ec);
+            std::size_t len = read(serial,  boost::asio::buffer(buffer, sizeof(buffer) - 1), ec);
 
             if (ec) {
                 std::cerr << "Ошибка чтения: " << ec.message() << std::endl;
