@@ -10,6 +10,9 @@
 #cmakebuild
 build/*
 
+#cppcheck
+LabsCheck-cppcheck-build-dir/*
+
 #vscode
 .vscode/*
 !.vscode/launch.json
