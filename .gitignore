@@ -12,6 +12,7 @@ build/*
 
 #cppcheck
 LabsCheck-cppcheck-build-dir/*
+*.cppcheck
 
 #vscode
 .vscode/*
