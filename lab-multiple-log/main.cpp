@@ -76,7 +76,7 @@ bool check_and_set_master() {
 #else
     master_semaphore = sem_open(lock_file, O_CREAT | O_EXCL, 0644, 1);
     if (master_semaphore == SEM_FAILED) {
-        std::cerr << "Failed to create semaphore: " << strerror(errno) << std::endl;
+        std::cerr << "Failed to create semaphore: " << errno << std::endl;
         return false;
     }
     return true;
