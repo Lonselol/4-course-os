@@ -20,7 +20,9 @@ main.cpp:
 ### 4 лабораторная (lab-temperature)
 Симуляция устройства - device_simulator.cpp
 Чтение - lab_temperature.cpp
-В обеих программах вводится имя порта (Тестировалось на эмулированных COM1 и COM2 для Windows).
+В обеих программах вводится имя порта:
+    Тестировалось на эмулированных COM1 и COM2 для Windows.
+    На Linux sudo apt install socat и socat -d -d pty,raw,echo=0 pty,raw,echo=0 для создания /dev/pts/2 и /dev/pts/3, с которыми проводилось тестирование.
 
 ### 5 лабораторная ()
 

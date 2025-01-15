@@ -14,6 +14,7 @@
 #include <unistd.h>
 #include <termios.h>
 #include <cstdio>
+#include <cstring>
 #endif
 
 class SerialPort {
@@ -50,14 +51,14 @@ public:
         if (fd < 0) {
             std::cerr << "Error opening serial port\n";
             std::cout << "press any key to exit...";
-            getch();
+            getchar();
             exit(1);
         }
         struct termios tty;
         if (tcgetattr(fd, &tty) != 0) {
             std::cerr << "Error getting serial port attributes\n";
             std::cout << "press any key to exit...";
-            getch();
+            getchar();
             exit(1);
         }
         cfsetospeed(&tty, B9600);
@@ -68,7 +69,7 @@ public:
         if (tcsetattr(fd, TCSANOW, &tty) != 0) {
             std::cerr << "Error setting serial port attributes\n";
             std::cout << "press any key to exit...";
-            getch();
+            getchar();
             exit(1);
         }
     #endif
@@ -112,7 +113,7 @@ int main() {
         #ifdef _WIN32
                 port = "COM1";
         #else
-                port = "/dev/ttyS0"
+                port = "/dev/pts/3";
         #endif
     }
     std::cout<<"port is "<<port<<std::endl;
