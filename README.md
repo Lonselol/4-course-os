@@ -22,16 +22,25 @@ main.cpp:
 Чтение - lab_temperature.cpp
 В обеих программах вводится имя порта:
     Тестировалось на эмулированных COM1 и COM2 для Windows.
-    На Linux sudo apt install socat и socat -d -d pty,raw,echo=0 pty,raw,echo=0 для создания /dev/pts/2 и /dev/pts/3, с которыми проводилось тестирование.
+    На Linux
+    ```
+    sudo apt install socat
+    socat -d -d pty,raw,echo=0 pty,raw,echo=0
+    ```
+    для создания /dev/pts/2 и /dev/pts/3, с которыми проводилось тестирование.
 
 ### 5 лабораторная ()
 За основу был взят код предыдущей лабораторной. Добавлена запись в базу данных (SQLite).
+```
 gcc -c sqlite3.c -o sqlite3.o
 ar rcs libsqlite3.a sqlite3.o
+```
 Для сборки SQLite на Windows
 Записывается температура с текущим локальным временем.
+```
 npm install -g http-server
 http-server
+```
 Для запуска frontend приложения. Отображает график за выбранный промежуток времени.
 ### 6 лабораторная ()
 
