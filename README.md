@@ -21,13 +21,13 @@ main.cpp:
 Симуляция устройства - device_simulator.cpp
 Чтение - lab_temperature.cpp
 В обеих программах вводится имя порта:
-    Тестировалось на эмулированных COM1 и COM2 для Windows.
-    На Linux
-    ```
-    sudo apt install socat
-    socat -d -d pty,raw,echo=0 pty,raw,echo=0
-    ```
-    для создания /dev/pts/2 и /dev/pts/3, с которыми проводилось тестирование.
+Тестировалось на эмулированных COM1 и COM2 для Windows.
+На Linux
+```
+sudo apt install socat
+socat -d -d pty,raw,echo=0 pty,raw,echo=0
+```
+для создания /dev/pts/2 и /dev/pts/3, с которыми проводилось тестирование.
 
 ### 5 лабораторная ()
 За основу был взят код предыдущей лабораторной. Добавлена запись в базу данных (SQLite).
