@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Stats</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .chart-container {
+            width: 80%;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Temperature Statistics</h1>
+    <label for="start">Start Time:</label>
+    <input type="datetime-local" id="start" name="start">
+    <label for="end">End Time:</label>
+    <input type="datetime-local" id="end" name="end">
+    <button onclick="fetchData()">Fetch Data</button>
+
+    <div class="chart-container">
+        <canvas id="temperatureChart"></canvas>
+    </div>
+
+    <script>
+        let temperatureChart;
+
+        function fetchData() {
+            const start = document.getElementById('start').value;
+            const end = document.getElementById('end').value;
+
+            if (!start || !end) {
+                alert('Please select both start and end times.');
+                return;
+            }
+
+            const url = `http://localhost:8080/stats?start=${start}&end=${end}`;
+
+            fetch(url)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.json();  // Парсим JSON из тела ответа
+                })
+                .then(data => {
+                    updateChart(data);
+                })
+                .catch(error => {
+                    console.error('Error fetching data:', error);
+                });
+        }
+
+        function updateChart(data) {
+            const ctx = document.getElementById('temperatureChart').getContext('2d');
+
+            if (temperatureChart) {
+                temperatureChart.destroy();
+            }
+
+            temperatureChart = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: Array.from({ length: data.temperatures.length }, (_, i) => `Point ${i + 1}`),
+                    datasets: [
+                        {
+                            label: 'Temperature',
+                            data: data.temperatures,
+                            borderColor: 'rgba(75, 192, 192, 1)',
+                            fill: false
+                        },
+                        {
+                            label: 'Hourly Average',
+                            data: data.hourly_avg,
+                            borderColor: 'rgba(255, 99, 132, 1)',
+                            fill: false
+                        },
+                        {
+                            label: 'Daily Average',
+                            data: data.daily_avg,
+                            borderColor: 'rgba(153, 102, 255, 1)',
+                            fill: false
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    scales: {
+                        x: {
+                            display: true,
+                            title: {
+                                display: true,
+                                text: 'Time'
+                            }
+                        },
+                        y: {
+                            display: true,
+                            title: {
+                                display: true,
+                                text: 'Temperature'
+                            }
+                        }
+                    }
+                }
+            });
+        }
+    </script>
+</body>
+</html>
