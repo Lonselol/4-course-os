@@ -31,12 +31,15 @@ socat -d -d pty,raw,echo=0 pty,raw,echo=0
 
 ### 5 лабораторная ()
 За основу был взят код предыдущей лабораторной. Добавлена запись в базу данных (SQLite).
+
+Для сборки SQLite на Windows:
 ```
 gcc -c sqlite3.c -o sqlite3.o
 ar rcs libsqlite3.a sqlite3.o
 ```
-Для сборки SQLite на Windows
-Записывается температура с текущим локальным временем.
+
+Температура записывается с текущим локальным временем.
+
 ```
 npm install -g http-server
 http-server
