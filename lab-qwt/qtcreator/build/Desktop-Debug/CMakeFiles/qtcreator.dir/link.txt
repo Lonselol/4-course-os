@@ -1,0 +1,1 @@
+/usr/bin/g++-13 -DQT_QML_DEBUG -g -Wl,--dependency-file=CMakeFiles/qtcreator.dir/link.d CMakeFiles/qtcreator.dir/qtcreator_autogen/mocs_compilation.cpp.o CMakeFiles/qtcreator.dir/main.cpp.o -o qtcreator  /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.13 -lQt5::Network /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.13 /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.13

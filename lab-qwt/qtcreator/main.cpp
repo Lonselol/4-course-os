@@ -87,18 +87,26 @@ private slots:
                 QJsonObject jsonObj = jsonDoc.object();
 
                 QJsonArray tempsArray = jsonObj["temperatures"].toArray();
-                QVector<double> temps;
-                for (const QJsonValue &value : tempsArray) {
-                    temps.append(value.toInt());
+
+                QVector<QPointF> points;
+
+                // Преобразуем данные в точки для графика
+                for (int i = 0; i < tempsArray.size(); ++i) {
+                    int temp = tempsArray[i].toInt();
+                    points.append(QPointF(i, temp)); // i - это просто индекс, можно использовать реальное время
                 }
 
-                QwtPointArrayData *data = new QwtPointArrayData(QVector<double>::fromList(QList<double>::fromVector(temps)), QVector<double>::fromList(QList<double>::fromVector(temps)));
-                curve->setData(data);
-                plot->replot();
+                // Обновляем данные на графике
+                curve->setSamples(points);
+                plot->replot();  // Перерисовываем график
+
             }
             reply->deleteLater();
         });
     }
+
+
+
 
 private:
     QwtPlot *plot;
